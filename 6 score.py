@@ -93,7 +93,7 @@ def game_loop():
         x += x_change
         gameDisplay.fill(white)
 
-        # things(thingx, thingy, thingw, thingh, color)
+        # things(thingx, thingy, thingr, color)
         things(thing_startx, thing_starty, thing_radius, block_color)
 
 
